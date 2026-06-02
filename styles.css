@@ -114,8 +114,8 @@ main {
 
 /* Booking Window Card Styling */
 .booking-window {
-  background: linear-gradient(135deg, #fff 0%, #eaf6ff 100%);
-  border: 3px solid #1677d2;
+  background: linear-gradient(135deg, #fffacd 0%, #ffeb99 100%);
+  border: 3px solid #ffa500;
   position: relative;
   overflow: hidden;
 }
@@ -127,14 +127,14 @@ main {
   right: -50%;
   width: 200%;
   height: 200%;
-  background: radial-gradient(circle, rgba(22,119,210,.05) 1px, transparent 1px);
+  background: radial-gradient(circle, rgba(255,165,0,.1) 1px, transparent 1px);
   background-size: 20px 20px;
   animation: float 20s linear infinite;
   pointer-events: none;
 }
 
 .booking-window h3 {
-  color: #1677d2;
+  color: #ff8c00;
   font-size: 1.6rem;
   margin-top: 0;
   margin-bottom: 1.2rem;
@@ -143,20 +143,20 @@ main {
 }
 
 .booking-highlight {
-  background: rgba(22,119,210,.08);
-  border-left: 4px solid #1677d2;
+  background: rgba(255,165,0,.12);
+  border-left: 4px solid #ff8c00;
   padding: 16px;
   border-radius: 8px;
   font-size: 1.05rem;
   font-weight: 600;
-  color: #0f5598;
+  color: #cc6600;
   margin: 20px 0;
   position: relative;
   z-index: 1;
 }
 
 .booking-highlight strong {
-  color: #0f5598;
+  color: #cc6600;
   font-weight: 700;
 }
 
@@ -169,7 +169,7 @@ main {
 }
 
 .booking-btn {
-  background: linear-gradient(135deg, #1677d2 0%, #0f5598 100%);
+  background: linear-gradient(135deg, #ff8c00 0%, #ff7700 100%);
   color: white;
   font-weight: 700;
   padding: 16px 24px;
@@ -179,12 +179,12 @@ main {
   transition: all 0.3s ease;
   position: relative;
   z-index: 1;
-  box-shadow: 0 6px 20px rgba(22,119,210,.25);
+  box-shadow: 0 6px 20px rgba(255,140,0,.25);
 }
 
 .booking-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 32px rgba(22,119,210,.35);
+  box-shadow: 0 12px 32px rgba(255,140,0,.35);
 }
 
 @keyframes float {
